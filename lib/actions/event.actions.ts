@@ -1,6 +1,6 @@
 "use server";
 
-import { CreateEventParams, DeleteEventParams, GetAllEventsParams, GetRelatedEventsByCategoryParams, UpdateEventParams } from "@/types";
+import { CreateEventParams, DeleteEventParams, GetAllEventsParams, GetEventsByUserParams, GetRelatedEventsByCategoryParams, UpdateEventParams } from "@/types";
 import { handleError } from "../utils";
 import { connectToDatabase } from "../database";
 import User from "../database/models/user.model";
